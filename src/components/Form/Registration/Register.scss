@@ -1,0 +1,62 @@
+html {
+    background-color: #1B1C21;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.registrationInformation, .containerSignIn {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.container-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    margin: 80px 200px;
+}
+
+.containerForm {
+    padding: 30px 150px 30px 150px;
+    border-radius: 15px;
+    background: linear-gradient(270deg, #BF00AE 0%, #E30071 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.registrationForm {
+    width: 100%;
+    border-radius: 10px;
+}
+  
+button {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #BB00B6;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease;
+    box-shadow: -1px 15px 5px -10px rgba(0,0,0,0.27);
+    -webkit-box-shadow: -1px 15px 5px -10px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 15px 5px -10px rgba(0,0,0,0.27);
+}
+
+button:hover {
+    background-color: #e2e2e2;
+}
+
+.link {
+    color: white;
+}
